@@ -5,6 +5,7 @@ public class Main {
         System.out.println("=== Лабораторная работа 2: Git ===");
         HelloWorld.main(args);
         Calculator.demo();
+        Factorial.demo();
         // новые задачи добавлять ниже
     }
 }
