@@ -7,6 +7,7 @@ public class Main {
         Calculator.demo();
         EvenOdd.demo();
         Factorial.demo();
+        SumToN.demo();
         // новые задачи добавлять ниже
     }
 }
