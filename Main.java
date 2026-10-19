@@ -6,6 +6,7 @@ public class Main {
         HelloWorld.main(args);
         Calculator.demo();
         EvenOdd.demo();
+        Factorial.demo();
         // новые задачи добавлять ниже
     }
 }
