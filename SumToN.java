@@ -9,7 +9,7 @@ public class SumToN {
     }
 
     public static int sumFormula(int n) {
-        return n * (n + 1) / 2;
+        return n * (n - 1) / 2;
     }
 
     public static void demo() {
