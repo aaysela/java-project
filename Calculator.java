@@ -21,7 +21,7 @@ public class Calculator {
 
     public static void demo() {
         System.out.println("--- Калькулятор ---");
-        System.out.println("Сумма двух чисел: " + add(6, 4));
+        System.out.printf("Сумма двух чисел: %.2f%n", add(6, 4));
         System.out.println("Вычитание: " + subtract(6, 4));
         System.out.println("Умножение: " + multiply(6, 4));
         System.out.println("Деление: " + divide(6, 4));
