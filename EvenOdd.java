@@ -1,7 +1,7 @@
 public class EvenOdd {
 
     public static String check(int n) {
-        if (n % 2 == 1) {
+        if (n % 2 != 0) {
             return "нечётное";
         }
         return "чётное";
