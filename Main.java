@@ -9,6 +9,7 @@ public class Main {
         Factorial.demo();
         SumToN.demo();
         Temperature.demo();
+        MaxOfThree.demo();
         // новые задачи добавлять ниже
     }
 }
