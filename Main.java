@@ -10,6 +10,7 @@ public class Main {
         SumToN.demo();
         Temperature.demo();
         MaxOfThree.demo();
+        GuessNumber.demo();
         // новые задачи добавлять ниже
     }
 }
