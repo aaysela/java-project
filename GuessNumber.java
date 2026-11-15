@@ -24,8 +24,10 @@ public class GuessNumber {
         int low = 1;
         int high = 100;
         String answer;
+        int attempts = 0;
         do {
             int guess = (low + high) / 2;
+            attempts++;
             answer = hint(secret, guess);
             System.out.println("Попытка " + guess + ": " + answer);
             if (answer.equals("больше")) {
@@ -34,5 +36,6 @@ public class GuessNumber {
                 high = guess - 1;
             }
         } while (!answer.equals("угадал"));
+        System.out.println("Число угадано за " + attempts + " попыток");
     }
 }
