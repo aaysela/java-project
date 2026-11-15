@@ -8,6 +8,7 @@ public class Main {
         EvenOdd.demo();
         Factorial.demo();
         SumToN.demo();
+        Temperature.demo();
         // новые задачи добавлять ниже
     }
 }
