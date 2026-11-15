@@ -11,6 +11,7 @@ public class Main {
         Temperature.demo();
         MaxOfThree.demo();
         Vowels.demo();
+        GuessNumber.demo();
         // новые задачи добавлять ниже
     }
 }
