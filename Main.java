@@ -12,6 +12,7 @@ public class Main {
         MaxOfThree.demo();
         Vowels.demo();
         GuessNumber.demo();
+        Palindrome.demo();
         // новые задачи добавлять ниже
     }
 }
